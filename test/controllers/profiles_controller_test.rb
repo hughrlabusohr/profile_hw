@@ -7,7 +7,7 @@ class ProfilesControllerTest < ActionController::TestCase
   end
 
   test "should post create" do
-    post :create
+    post :create, user_name: "masonfmatthews"
     assert_response :success
   end
 
