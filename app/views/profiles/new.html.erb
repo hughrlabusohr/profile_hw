@@ -1,0 +1,7 @@
+<h1>Give me a user name!</h1>
+<p>
+  <%= form_tag profiles_create_path do %>
+    <%= text_field_tag :github_user_name %>
+    <%= button_tag "Submit Github User Name"%>
+  <%end %>
+</p>
